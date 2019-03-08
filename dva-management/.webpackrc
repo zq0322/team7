@@ -1,0 +1,9 @@
+{
+    "proxy": {
+        "/api": {
+            "target": "http://localhost:7001",
+            "pathRewriteyes":{"^/api":""},
+            "changeOrigin": true
+        }
+    }
+}
